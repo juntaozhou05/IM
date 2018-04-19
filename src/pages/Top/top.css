@@ -1,0 +1,34 @@
+.top {
+  background-color: #1c6132;
+  color: white;
+  padding: 0.1rem;
+}
+.top .logo {
+  text-align: center;
+  font-size: 0.5rem;
+}
+.top .logo img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+}
+.top .search {
+  text-align: center;
+}
+.top .search input {
+  width: 50%;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  padding: 0.1rem;
+  color: gray;
+}
+.top .lists {
+  padding: 0.1rem 0.4rem;
+  font-size: 0.3rem;
+}
+.top .lists span {
+  display: inline-block;
+  padding: 0.25rem;
+  text-align: center;
+}
