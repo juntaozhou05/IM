@@ -2,6 +2,7 @@
   background-color: #1c6132;
   color: white;
   padding: 0.1rem;
+  margin: 0.1rem;
 }
 .top .logo {
   text-align: center;
@@ -16,16 +17,20 @@
   text-align: center;
 }
 .top .search input {
-  width: 50%;
+  width: 60%;
   border-radius: 1rem;
   border: none;
   outline: none;
   padding: 0.1rem;
   color: gray;
+  background: #4f9639;
+}
+.top .search input:focus {
+  background-color: white;
 }
 .top .lists {
   padding: 0.1rem 0.4rem;
-  font-size: 0.3rem;
+  font-size: 0.25rem;
 }
 .top .lists span {
   display: inline-block;
